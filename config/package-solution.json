@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "vertical-news-client-side-solution",
+    "id": "373fcfbe-32dd-48c6-80d8-4bd94b4f281d",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "vertical-news description"
+      },
+      "longDescription": {
+        "default": "vertical-news description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "vertical-news Feature",
+        "description": "The feature that activates elements of the vertical-news solution.",
+        "id": "6b1f273f-1d8d-4b8a-b8f1-5827eaa092a3",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/vertical-news.sppkg"
+  }
+}
